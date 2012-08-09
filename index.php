@@ -165,11 +165,11 @@
      
 </div><!-- #container -->
  
-<div id="primary" class="widget-area">
-</div><!-- #primary .widget-area -->
+<!-- <div id="primary" class="widget-area">
+</div><!-- #primary .widget-area --> 
  
-<div id="secondary" class="widget-area">
-</div><!-- #secondary -->
+<!-- <div id="secondary" class="widget-area">
+</div><!-- #secondary --> 
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
