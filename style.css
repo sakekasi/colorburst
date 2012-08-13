@@ -33,12 +33,172 @@
  */
 
 @font-face{
-	font-family: "Wendy";
-	src:url("fonts/wendylpbold.ttf");
+	font-family: "Junction";
+	src:url("fonts/Junction.otf");
 }
 
 @font-face{
-	font-family: "PT Sans";
-	src:url("fonts/PT_Sans-Narrow-Web-Regular.ttf");
+    font-family: "Ostrich Bold";
+    src:url("fonts/ostrich-bold-webfont.woff");
 }
 
+@font-face{
+    font-family: "Ostrich Dashed";
+    src:url("fonts/ostrich-dashed-webfont.woff");
+}
+
+@font-face{
+    font-family: "Ostrich Normal";
+    src:url("fonts/ostrich-regular-webfont.woff");
+}
+
+@font-face{
+    font-family: "Ostrich Black";
+    src:url("fonts/ostrich-black-webfont.woff");
+}
+
+@font-face{
+    font-family: "Prociono";
+    src:url("fonts/Prociono-Regular-webfont.woff");
+}
+
+@font-face{
+    font-family: "Knewave";
+    src:url("fonts/knewave-webfont.woff");
+}
+
+@font-face{
+    font-family: "Knewave Outline";
+    src:url("fonts/knewave-outline-webfont.woff");
+}
+
+@font-face{
+    font-family: "Fanwood";
+    src:url("fonts/fanwood-webfont.woff");
+}
+
+@font-face{
+    font-family: "Raleway";
+    src:url("fonts/raleway_thin-webfont.woff");
+}
+
+#blog-title {
+    font-family: Raleway;
+    font-size: 75px;
+    text-decoration: none;
+    color: #e1e1e1;
+    width: 300px;
+    display:inline-block;
+    font-weight:bold;
+}
+
+
+
+#blog-description {
+    font-family: Raleway;
+    font-size: 40px;
+    text-decoration: none;
+    color: #e1e1e1;
+    width: 580px;
+    float: right;
+    text-overflow: ellipsis;
+    line-height: 105%;
+    padding-top: 7px;
+}
+
+.page_item_link {
+    font-family: Prociono;
+    font-size: 16px;
+    text-decoration: none;
+    color: #e1e1e1;
+}
+
+body {
+//    background: #bfd2b4;
+      background: #2228BF;
+}
+
+#branding {
+//    background: #a8c2c1;
+    background:#004AD9;
+    border: none;
+    border-bottom: 2px solid;
+    border-color: #003EB2;
+    height: 70px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    width: 891px;
+}
+
+.menu {
+    width: 901px;
+    height: 15px;
+    border: none;
+//    background: #a8c2c1;
+    background: #004AD9;
+    padding-top: 5px
+}
+
+#footer {
+//    background: #F9A100;
+    background: #1B3059;
+    border: none;
+    border-top: 2px solid;
+    border-color: #DF4242;
+    width: 901px;
+    color: white;
+}
+
+#nav {
+    margin-left: 0px;
+}
+
+#flourish {
+    background: #a8c2c1;
+}
+
+/* fixes wrapper space on chrome */
+.chrome #wrapper {
+    position: relative;
+    top: -30px;
+}
+
+#colophon {
+    float: left;
+    padding-top: 30px;
+    padding-left: 25px;
+}
+
+#contact {
+
+    float: right;
+    padding-left: 200px;
+    padding-right: 30px;
+    border-left: 2px solid #df6c6e; 
+}
+
+.clear {
+    clear: both;
+}
+
+.social {
+    padding: 3px;
+}
+
+#email {
+    padding-left: 3px;
+}
+
+#contact-title {
+    padding-left: 3px;
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+div {
+    font-family: Prociono;
+}
+
+#main {
+    background: #FFF9C4;
+}

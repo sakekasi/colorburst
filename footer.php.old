@@ -1,0 +1,58 @@
+        </div><!-- #main -->
+     
+     <div id="footer">
+        <div id="colophon">
+             &copy; 2012 Saketh Kasibatla
+        </div><!-- #colophon -->
+        <div id="contact">
+        <?php $options = get_option('colorburst'); ?>
+             <div class="social" id="icons">
+                  test
+                  <?php
+             
+                  if($options['facebook'] != ''){
+                        printf('<a target="_blank" class="social" id=facebook" href="%s"><img class="social" src="%s/wp-content/themes/colorburst/images/social/facebook.jpg"></a>', $options['facebook], get_site_url());
+                 }
+
+                 if($options['twitter']){
+                        printf('<a target="_blank" class="social" id="twitter" href="%s"><img class="social" src="%s/wp-content/themes/colorburst/images/social/twitter.jpg"></a>', $options['twitter'], get_site_url());
+                 }
+
+                 if($options['gplus']){
+                        printf('<a target="_blank" class="social" id="google_plus" href="%s"><img class="social" src="%s/wp-content/themes/colorburst/images/social/google.jpg"></a>', $options['gplus'], get_site_url());
+                 }
+
+                 if($options['github']){
+                        printf('<a target="_blank" class="social" id-github" href="%s"><img class="social" src="%s/wp-content/themes/colorburst/images/social/github.jpg"></a>', $options['github'], get_site_url());
+                 }
+
+                 if($options['youtube']){
+                        printf('<a target="_blank" 'class="social" id="youtube" href="%s"><img class="social" src="%s/wp-content/themes/colorburst/images/social/youtube.jpg"></a>',  $options['youtube'], get_site_url());
+                 }
+
+                 if($options['rss']){
+                        printf('<a target="_blank" class="social" id=rss" href="%s"><img class="social" src="%s/wp-content/themes/colorburst/images/social/rss.jpg"></a>', $options['rss'], get_site_url());
+                 }else{
+                        printf('<a target="_blank" class="social" id="rss" href="%s"><img class="social" src="%s/wp-content/themes/colorburst/images/social/rss.jpg"></a>', $bloginfo('rss2_url'), get_site_url());
+                 }
+
+                 ?> 
+
+           </div><!-- #icons -->
+           
+           <div id="email">
+                <?php
+                        if($options['email']){
+                                printf( 'EMAIL: %s', $options['email']);
+                        }
+                 ?>
+           </div><!-- #email -->
+
+                        
+
+                 
+        </div><!-- #contact -->
+    </div><!-- #footer -->
+</div><!-- #wrapper -->
+</body>
+</html>

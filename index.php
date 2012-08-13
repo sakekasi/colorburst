@@ -3,7 +3,7 @@
 <div id="container">
  
  <div id="content">
- 
+      <?php define('WP_DEBUG', true); ?>
       <?php /* Top post navigation */ ?>
       <?php global $wp_query; 
             $total_pages = $wp_query->max_num_pages; 

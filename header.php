@@ -44,7 +44,8 @@
                        { single_post_title(''); }
         		elseif ( is_search() ) 
                        { bloginfo('name'); 
-                         print ' | Search results for ' . wp_specialchars($s); 
+                         print ' | Search results for ' . 
+                         wp_specialchars($s); 
                          get_page_number(); }
         		elseif ( is_404() ) 
                        { bloginfo('name'); 
@@ -125,6 +126,7 @@
           <div id="blog-title">
             <span>
               <a href="<?php bloginfo( 'url' ) ?>/" 
+                 id="blog-title"
                  title="<?php bloginfo( 'name' ) ?>" 
                  rel="home"><?php bloginfo( 'name' ) ?></a>
             </span>
@@ -138,9 +140,9 @@
                  <?php bloginfo( 'description' ) ?>
             </div>
           <?php } ?>
-        
+          <div class="clear"></div>
         </div><!-- #branding -->
-             
+        
         <div id="access">
 
           <div class="skip-link">
@@ -153,8 +155,8 @@
           <?php wp_page_menu( 'sort_column=menu_order' ); ?>
 
         </div><!-- #access -->
-             
+        <div id="flourish"></div>
       </div><!-- #masthead -->   
     </div><!-- #header -->
 
-    </div><!-- #main -->
+    <div id="main">
