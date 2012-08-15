@@ -2,7 +2,8 @@
      
      <div id="footer">
         <div id="colophon">
-             &copy; 2012 Saketh Kasibatla
+             This wordpress theme is distributed under the <a target="_blank" class="footer-link" href="http://www.gnu.org/copyleft/gpl.html">GNU GPL</a>.<br/>
+             View its source <a target="_blank" class=footer-link href="https://github.com/sakekasi/colorburst">here</a>.
         </div><!-- #colophon -->
         
         <div id="contact">
