@@ -33,7 +33,7 @@ body {
 }
 
 /*navigation*/
-.menu {
+#access {
  width: 900px;
  color: #333;
  padding: 10px;
@@ -50,7 +50,7 @@ body {
  background: #F2F2E6;
  margin: 0px 0px 0px 0px;
  padding: 10px;
- height: 350px;
+// height: 350px;
 }
 #footer { 
  width: 900px;

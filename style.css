@@ -106,13 +106,6 @@
     padding-top: 7px;
 }
 
-.page_item_link {
-    font-family: Prociono;
-    font-size: 16px;
-    text-decoration: none;
-    color: #e1e1e1;
-}
-
 body {
 //    background: #bfd2b4;
       background: #2228BF;
@@ -120,7 +113,6 @@ body {
 
 #branding {
 //    background: #a8c2c1;
-    background:#004AD9;
     border: none;
     border-bottom: 2px solid;
     border-color: #003EB2;
@@ -128,15 +120,14 @@ body {
     padding-bottom: 25px;
     padding-left: 20px;
     width: 891px;
+    background: url(images/stripes.png), #004AD9;
 }
 
-.menu {
+#access {
     width: 901px;
-    height: 15px;
     border: none;
 //    background: #a8c2c1;
     background: #004AD9;
-    padding-top: 5px
 }
 
 #footer {
@@ -192,13 +183,76 @@ body {
 #contact-title {
     padding-left: 3px;
     text-decoration: underline;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 div {
     font-family: Prociono;
+    font-size: 14px;
 }
 
 #main {
     background: #FFF9C4;
 }
+
+.entry-title{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.entry-title a{
+    text-decoration: underline;
+}
+
+.entry-meta span{
+    font-style: italic;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: #0096FF;
+}
+
+.post{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dotted black;
+}
+
+.menu{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.page_item_link {
+    font-family: Prociono;
+    font-size: 16px;
+    text-decoration: none;
+    color: #e1e1e1;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    border-left: 1px dotted #003EB2;
+}
+
+.page_item:first-child a{
+    border-left: none;
+}
+
+.nav-previous {
+    float: left;
+}
+
+.nav-next {
+    float: right;
+}
+
+#nav-above {
+    border-bottom: 1px dotted black;
+}
+

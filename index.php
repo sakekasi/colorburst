@@ -23,6 +23,7 @@
                                                         '</span>', 
                                                         'your-theme' )) ?>
                      </div>
+                     <div class="clear"></div>
                 </div><!-- #nav-above -->
       <?php } ?>
 
@@ -89,8 +90,8 @@
                      
                      <div class="entry-content">   
                           <?php the_content( __( 
-                                'Continue reading <span class="meta-nav">
-                                &raquo;</span>', 'colorburst' )  ); ?>
+                                'Continue reading <span class="meta-nav">'.
+                                '&raquo;</span>', 'colorburst' )  ); ?>
                           <?php wp_link_pages('before=<div class="page-link">'
                                               . __( 'Pages:', 'your-theme' ) 
                                               . '&after=</div>') ?>
@@ -158,6 +159,7 @@
                                                       .'>&raquo;</span>', 
                                                       'colorburst' )) ?>
                     </div>
+                    <div class="clear"></div>                    
                 </div><!-- #nav-below -->
        <?php } ?>
 
