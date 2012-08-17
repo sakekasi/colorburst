@@ -2,6 +2,7 @@ HDIR=~/Programming/web/colorburst
 SDIR=/srv/http/nginx/wordpress/wp-content/themes/colorburst
 
 git:
+	git add --all
 	git commit --all
 	git push
 	git --git-dir=$(SDIR)/.git fetch

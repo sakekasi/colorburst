@@ -1,0 +1,364 @@
+/*
+ Theme Name: Color Burst
+ Theme URI: http://www.sakekasi.com/
+ Description: The theme used on my personal wordpress blog.
+ Author: Saketh Kasibatla
+ Author URI: http://www.sakekasi.com/
+ Version: 1.0
+ Tags: color, primary, minimalist, elegant
+ 
+ .
+ This theme is released under the GNU GPL
+ http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+ .
+ */
+
+/* Reset default browser styles  */
+@import url('../styles/reset.css');
+
+/* Rebuild default browser styles */
+@import url('../styles/rebuild.css');
+
+/* WP.css */
+@import url('../styles/wp.css');
+
+/*wp-reset.css*/
+@import url('../styles/wp-reset.css');
+
+/*2-col.css*/
+@import url('../styles/1-col.css');
+
+/*
+ * fonts
+ */
+
+@font-face{
+	font-family: "Junction";
+	src:url("../fonts/Junction.otf");
+}
+
+@font-face{
+    font-family: "Ostrich Bold";
+    src:url("../fonts/ostrich-bold-webfont.woff")format('woff');
+}
+
+@font-face{
+    font-family: "Ostrich Dashed";
+    src:url("../fonts/ostrich-dashed-webfont.woff")format('woff');
+}
+
+@font-face{
+    font-family: "Ostrich Normal";
+    src:url("../fonts/ostrich-regular-webfont.woff")format('woff');
+}
+
+@font-face{
+    font-family: "Ostrich Black";
+    src:url("../fonts/ostrich-black-webfont.woff")format('woff');
+}
+
+@font-face{
+    font-family: "Prociono";
+    src:url("../fonts/Prociono-Regular-webfont.woff")format('woff'),
+        url("../fonts/Prociono.ttf")format('truetype');
+}
+
+@font-face{
+    font-family: "Knewave";
+    src:url("../fonts/knewave-webfont.woff")format('woff');
+}
+
+@font-face{
+    font-family: "Knewave Outline";
+    src:url("../fonts/knewave-outline-webfont.woff")format('woff');
+}
+
+@font-face{
+    font-family: "Fanwood";
+    src:url("../fonts/fanwood-webfont.woff")format('woff');
+}
+
+@font-face{
+    font-family: "Raleway";
+    src:url("../fonts/raleway_thin-webfont.woff")format('woff'),
+        url("../fonts/raleway_thin-webfont.ttf")format('truetype');
+}
+
+#blog-title {
+    font-family: Raleway;
+    font-size: 70px;
+    text-decoration: none;
+    color: #e1e1e1;
+    display:inline-block;
+    font-weight:bold;
+    width: 750px;
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-right: 1px dotted #003EB2;
+    height: 85px;
+}
+
+
+
+#blog-description {
+    font-family: Raleway;
+    font-size: 40px;
+    text-decoration: none;
+    color: #e1e1e1;
+    width: 580px;
+    float: right;
+    text-overflow: ellipsis;
+    line-height: 105%;
+    padding-top: 7px;
+}
+
+body {
+//    background: #bfd2b4;
+      background: #2228BF;
+}
+
+#branding {
+    border: none;
+    border-bottom: 2px solid;
+    border-color: #003EB2;
+    height: 70px;
+    padding-bottom: 25px;
+    padding-left: 0px;
+    width: 912px;
+    background: url(../images/stripes.png), #004AD9;
+}
+
+.category-header {
+    background: #004AD9;
+    color: white;
+    width: 915px;
+    position: relative;
+    left: -1px;
+    top: -1px;
+    font-size: 16px;
+    padding-left: 7px;
+    border-bottom: 2px solid;
+    border-color: #003EB2;
+    border-top: 2px solid;
+    border-color: #003EB2;
+2}
+
+#footer {
+    background: #1B3059;
+    border: none;
+    border-top: 2px solid;
+    border-color: #DF4242;
+    width: 901px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#nav {
+    margin-left: 0px;
+}
+
+#flourish {
+    background: #a8c2c1;
+}
+
+/* fixes wrapper space on chrome */
+.chrome #wrapper {
+    position: relative;
+    top: -30px;
+}
+
+#colophon {
+    float: left;
+    padding-top: 23px;
+    padding-left: 25px;
+}
+
+.clear {
+    clear: both;
+}
+
+.social {
+    padding: 3px;
+}
+
+#email {
+    padding-left: 3px;
+}
+
+#contact-title {
+    padding-left: 3px;
+    text-decoration: underline;
+    font-size: 15px;
+}
+
+div {
+    font-family: Prociono;
+    font-size: 14px;
+}
+
+#main {
+    background: #FFF9C4;
+    padding: 0px;
+    width: 920px;
+}
+
+.entry-title{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.entry-title a{
+    text-decoration: underline;
+}
+
+.entry-meta span{
+    font-style: italic;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: #0096FF;
+}
+
+.post{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dotted black;
+}
+
+.menu{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.page_item_link {
+    font-family: Prociono;
+    font-size: 16px;
+    text-decoration: none;
+    color: #e1e1e1;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    border-left: 1px dotted #003EB2;
+}
+
+.page_item:first-child a{
+    border-left: none;
+}
+
+.nav-previous {
+    float: left;
+}
+
+.nav-next {
+    float: right;
+}
+
+#nav-above {
+    border-bottom: 1px dotted black;
+}
+
+.footer-link {
+    color: white;
+}
+
+#address-container{
+    width: 33%;
+    float: left;
+}
+
+#phone-container{
+    width: 33%;
+    float: left;
+}
+
+#email-container{
+    width: 33%;
+    float: left;
+}p
+
+#contact-content{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+p}
+
+#projects-header{
+    width: 50%;
+    float: left;
+    border-right: 1px dotted #003EB2;
+    padding-right: 2px;
+    font-size: 16px;
+}
+
+#skills-header {
+    width: 49%;
+    float: left;
+    padding-left: 5px;
+    font-size: 16px;
+}
+
+#projects-content{
+    width: 50%;
+    float: left;
+    border-right: 1px dotted brown;
+    padding-right: 5px;
+}
+
+#skills-content{
+    width: 49%;
+    float: left;
+}
+
+#qr-code{
+//    background: url(../images/resume/qrcode.png), white;
+//    background-size: 100%;
+    background: white;
+    width: 90px;
+    height: 90px;
+    margin-left: 10px;
+    float: right;
+    position: relative;
+}
+
+.qr-code{
+    width: 90px;
+    height: 90px;
+}
+
+#home-top{
+    width: 50px;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    border-right: 1px dotted #003EB2;
+}
+
+#contact-content{
+    padding-left: 15px;
+}
+
+#education-content{
+    padding-left: 15px;
+}
+
+#work-content{
+    padding-left: 15px;
+}
+
+#save{
+    width: 50px;
+    float: left;
+    padding-bottom: 15px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
