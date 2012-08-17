@@ -59,7 +59,13 @@
                                         type="text"
                                         value="<?php echo $options['rss']; ?>" >
                              </td>
-                         </tr>                         
+                         </tr>    
+                         <tr valign="top"><th scope="row">Name</th>
+                             <td><input name="colorburst[name]"
+                                        type="text"
+                                        value="<?php echo $options['name']; ?>">                             
+                             </td>                     
+                         </tr>
                    </table>
                    <p class="submit">
                       <input type="submit" class="button-primary"
