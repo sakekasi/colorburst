@@ -124,7 +124,7 @@
         <div id="branding">
           <div class="home" id="home-top">
             <a class="home-link" href="<?php echo site_url() ?>">
-              <img class="home-icon" src="wp-content/themes/colorburst/images/back.png">
+              <img class="home-icon" src="<?php echo site_url() ?>/wp-content/themes/colorburst/images/back.png">
             </a>
           </div>
           <div id="blog-title">
@@ -151,7 +151,7 @@
             <a class="save-link" href="<?php echo site_url();
                                   ?>/wp-content/themes/colorburst/resume.pdf">
               <img class="save-icon"
-                   src="wp-content/themes/colorburst/images/save.png">
+                   src="<?php echo site_url() ?>/wp-content/themes/colorburst/images/save.png">
             </a>
           </div>
           <div class="clear"></div>
