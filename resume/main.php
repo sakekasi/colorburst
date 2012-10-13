@@ -9,9 +9,9 @@
               *work experience/volunteering -->
      <?php include 'contact.php'; ?>
      <?php include 'qualsum.php'; ?>
-     <?php include 'education.php'; ?>
-     <?php include 'projskill.php'; ?>
      <?php include 'work.php'; ?>
+     <?php include 'projskill.php'; ?>
+     <?php include 'education.php'; ?>
  </div><!-- #content -->
      
 </div><!-- #container -->

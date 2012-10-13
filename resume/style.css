@@ -142,7 +142,7 @@ body {
     border-color: #003EB2;
     border-top: 2px solid;
     border-color: #003EB2;
-2}
+}
 
 #footer {
     background: #1B3059;
@@ -196,7 +196,7 @@ body {
 
 div {
     font-family: Prociono;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 #main {
@@ -361,4 +361,9 @@ p}
     padding-bottom: 15px;
     padding-top: 20px;
     padding-left: 10px;
+}
+
+#starting-project{
+    position: relative;
+    left: 10px;
 }

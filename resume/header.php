@@ -149,7 +149,7 @@
           </div>
           <div id="save">
             <a class="save-link" href="<?php echo site_url();
-                                  ?>/wp-content/themes/colorburst/resume-printable.php">
+                                  ?>/wp-content/themes/colorburst/resume.pdf">
               <img class="save-icon"
                    src="wp-content/themes/colorburst/images/save.png">
             </a>

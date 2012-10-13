@@ -25,7 +25,8 @@
                     </span>
                     <div class="work-entry-content" id="band-content">
                          <ul>
-                                <li>Led eighteen students to create an award winning field show as a part of a one hundrend student band</li>
+                                <li>Led eighteen students in the clarinet section to create an award winning field show as a part of a one hundrend student band</li>
+                                <li>Trained  section memvers in musicianship and marching over the course of the 2011 football season</li>
                          </ul>
                     </div>
                </div>
