@@ -1,13 +1,12 @@
 <div id='projskill'>
+    
      <div class="category-header" id="projskill-category-header">
           <div id="projects-header">
                Projects
           </div>
-          <div id="skills-header">
-               Skills
-          </div>
           <div class="clear"></div>
      </div>
+
      
      <div class="content" id="projskill-content">
 
@@ -77,22 +76,51 @@
                         </li>
                </ul>
           </div>
+          <div class="clear"></div>
+     </div>
+    
+     <div class="category-header" id="projskill-category-header">
+          <div id="skills-header">
+               Skills
+          </div>
+          <div class="clear"></div>
+     </div>
+
+     <div class="content" id="projskill-content">
           <div class="content" id="skills-content">
                <ul>
+                        <div class="skills-column">
+                        <strong>Languages</strong>
                         <li>Java</li>
                         <li>Python</li>
                         <li>C/C++</li>
                         <li>LISP</li>
-                        <br/>
-                        <li>Linux</li>
+                        </div>
+
+                        <div class="skills-column">
+                        <strong>Unix</strong>
+                        <li>Arch Linux</li>
+                        <li>Ubuntu</li>
                         <li>BASH</li>
-                        <br/>
+                        <li>Unix utilities</li>
+                        </div>
+
+                        <div class="skills-column">
+                        <strong>Version Control</strong>
+                        <li>Bazaar</li>
                         <li>Git</li>
                         <li>Mercurial</li>
                         <li>Subversion</li>
-                        <br/>
+                        </div>
+
+                        <div class="skills-column">
+                        <strong>Concepts</strong>
                         <li>SQL/Databases</li>
                         <li>Web Design</li>
+                        <li>Data Structures</li>
+                        <li>Algorithms</li>
+                        </div>
+                        <div class="clear"></div>
                </ul>
           </div>
           <div class="clear"></div>

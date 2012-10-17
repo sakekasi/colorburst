@@ -73,6 +73,7 @@
     src:url("../fonts/knewave-outline-webfont.woff")format('woff');
 }
 
+
 @font-face{
     font-family: "Fanwood";
     src:url("../fonts/fanwood-webfont.woff")format('woff');
@@ -136,7 +137,7 @@ body {
     position: relative;
     left: -1px;
     top: -1px;
-    font-size: 16px;
+    font-size: 14px;
     padding-left: 7px;
     border-bottom: 2px solid;
     border-color: #003EB2;
@@ -283,39 +284,34 @@ a:hover{
 #email-container{
     width: 33%;
     float: left;
-}p
+}
 
 #contact-content{
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
-p}
+}
 
 #projects-header{
-    width: 50%;
+    width: 100%;
     float: left;
-    border-right: 1px dotted #003EB2;
-    padding-right: 2px;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 #skills-header {
-    width: 49%;
+    width: 100%;
     float: left;
-    padding-left: 5px;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 #projects-content{
-    width: 50%;
+    width: 100%;
     float: left;
-    border-right: 1px dotted brown;
-    padding-right: 5px;
 }
 
 #skills-content{
-    width: 49%;
+    width: 100%;
     float: left;
 }
 
@@ -366,4 +362,9 @@ p}
 #starting-project{
     position: relative;
     left: 10px;
+}
+
+.skills-column{
+    width: 25%;
+    float: left;
 }
