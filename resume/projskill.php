@@ -92,36 +92,38 @@
                         <div class="skills-column">
                         <strong>Languages</strong>
                         <li>Java</li>
-                        <li>Python</li>
-                        <li>C/C++</li>
-                        <li>LISP</li>
+                        <li>Python*</li>
+                        <li>C/C++*</li>
+                        <li>LISP*</li>
                         </div>
 
                         <div class="skills-column">
                         <strong>Unix</strong>
-                        <li>Arch Linux</li>
-                        <li>Ubuntu</li>
-                        <li>BASH</li>
-                        <li>Unix utilities</li>
+                        <li>Arch Linux*</li>
+                        <li>Ubuntu*</li>
+                        <li>BASH*</li>
+                        <li>Unix utilities*</li>
                         </div>
 
                         <div class="skills-column">
                         <strong>Version Control</strong>
-                        <li>Bazaar</li>
-                        <li>Git</li>
-                        <li>Mercurial</li>
+                        <li>Bazaar*</li>
+                        <li>Git*</li>
+                        <li>Mercurial*</li>
                         <li>Subversion</li>
                         </div>
 
                         <div class="skills-column">
                         <strong>Concepts</strong>
                         <li>SQL/Databases</li>
-                        <li>Web Design</li>
-                        <li>Data Structures</li>
-                        <li>Basic Algorithms</li>
+                        <li>Web Design*</li>
+                        <li>Data Structures*</li>
+                        <li>Basic Algorithms*</li>
                         </div>
                         <div class="clear"></div>
+                        * self-taught   
                </ul>
+
           </div>
           <div class="clear"></div>
      </div>
