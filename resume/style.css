@@ -165,11 +165,12 @@ body {
     background: #a8c2c1;
 }
 
-/* fixes wrapper space on chrome */
+/* fixes wrapper space on chrome 
 .chrome #wrapper {
     position: relative;
-    top: -30px;
+    top: 5px;
 }
+*/
 
 #colophon {
     float: left;

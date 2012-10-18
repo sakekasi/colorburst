@@ -38,8 +38,7 @@
                      Website:
                </span>
                <p class="website" id="website-content">
-                  <a href="http://www.sakekasi.com">http://www.sakekasi.com</a><br>
-                  <a href="http://github.com/sakekasi">http://github.com/sakekasi</a>
+                  <a href="http://www.sakekasi.com">http://www.sakekasi.com</a>
                </p>
           </div>
           <div class="clear"></div>

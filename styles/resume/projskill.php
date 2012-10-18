@@ -118,7 +118,7 @@
                         <li>SQL/Databases</li>
                         <li>Web Design</li>
                         <li>Data Structures</li>
-                        <li>Basic Algorithms</li>
+                        <li>Algorithms</li>
                         </div>
                         <div class="clear"></div>
                </ul>

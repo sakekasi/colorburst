@@ -14,19 +14,19 @@
  */
 
 /* Reset default browser styles  */
-@import url('styles/reset.css');
+@import url('../styles/reset.css');
 
 /* Rebuild default browser styles */
-@import url('styles/rebuild.css');
+@import url('../styles/rebuild.css');
 
 /* WP.css */
-@import url('styles/wp.css');
+@import url('../styles/wp.css');
 
 /*wp-reset.css*/
-@import url('styles/wp-reset.css');
+@import url('../styles/wp-reset.css');
 
 /*2-col.css*/
-@import url('styles/1-col.css');
+@import url('../styles/1-col.css');
 
 /*
  * fonts
@@ -34,62 +34,70 @@
 
 @font-face{
 	font-family: "Junction";
-	src:url("fonts/Junction.otf");
+	src:url("../fonts/Junction.otf");
 }
 
 @font-face{
     font-family: "Ostrich Bold";
-    src:url("fonts/ostrich-bold-webfont.woff");
+    src:url("../fonts/ostrich-bold-webfont.woff")format('woff');
 }
 
 @font-face{
     font-family: "Ostrich Dashed";
-    src:url("fonts/ostrich-dashed-webfont.woff");
+    src:url("../fonts/ostrich-dashed-webfont.woff")format('woff');
 }
 
 @font-face{
     font-family: "Ostrich Normal";
-    src:url("fonts/ostrich-regular-webfont.woff");
+    src:url("../fonts/ostrich-regular-webfont.woff")format('woff');
 }
 
 @font-face{
     font-family: "Ostrich Black";
-    src:url("fonts/ostrich-black-webfont.woff");
+    src:url("../fonts/ostrich-black-webfont.woff")format('woff');
 }
 
 @font-face{
     font-family: "Prociono";
-    src:url("fonts/Prociono-Regular-webfont.woff");
+    src:url("../fonts/Prociono-Regular-webfont.woff")format('woff'),
+        url("../fonts/Prociono.ttf")format('truetype');
 }
 
 @font-face{
     font-family: "Knewave";
-    src:url("fonts/knewave-webfont.woff");
+    src:url("../fonts/knewave-webfont.woff")format('woff');
 }
 
 @font-face{
     font-family: "Knewave Outline";
-    src:url("fonts/knewave-outline-webfont.woff");
+    src:url("../fonts/knewave-outline-webfont.woff")format('woff');
 }
+
 
 @font-face{
     font-family: "Fanwood";
-    src:url("fonts/fanwood-webfont.woff");
+    src:url("../fonts/fanwood-webfont.woff")format('woff');
 }
 
 @font-face{
     font-family: "Raleway";
-    src:url("fonts/raleway_thin-webfont.woff");
+    src:url("../fonts/raleway_thin-webfont.woff")format('woff'),
+        url("../fonts/raleway_thin-webfont.ttf")format('truetype');
 }
 
 #blog-title {
     font-family: Raleway;
-    font-size: 75px;
+    font-size: 70px;
     text-decoration: none;
     color: #e1e1e1;
-    width: 300px;
     display:inline-block;
     font-weight:bold;
+    width: 750px;
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-right: 1px dotted #003EB2;
+    height: 85px;
 }
 
 
@@ -112,32 +120,41 @@ body {
 }
 
 #branding {
-//    background: #a8c2c1;
     border: none;
-    border-bottom: 4px solid;
+    border-bottom: 2px solid;
     border-color: #003EB2;
     height: 70px;
     padding-bottom: 25px;
-    padding-left: 20px;
-    width: 891px;
-    background: url(images/stripes.png), #004AD9;
+    padding-left: 0px;
+    width: 912px;
+    background: url(../images/stripes.png), #004AD9;
 }
 
-#access {
-    width: 901px;
-    border: none;
-//    background: #a8c2c1;
+.category-header {
     background: #004AD9;
+    color: white;
+    width: 915px;
+    position: relative;
+    left: -1px;
+    top: -1px;
+    font-size: 14px;
+    padding-left: 7px;
+    border-bottom: 2px solid;
+    border-color: #003EB2;
+    border-top: 2px solid;
+    border-color: #003EB2;
 }
 
 #footer {
-//    background: #F9A100;
     background: #1B3059;
     border: none;
     border-top: 2px solid;
     border-color: #DF4242;
     width: 901px;
     color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #nav {
@@ -148,25 +165,16 @@ body {
     background: #a8c2c1;
 }
 
-/* fixes wrapper space on chrome 
+/* fixes wrapper space on chrome */
 .chrome #wrapper {
     position: relative;
     top: -30px;
 }
-*/
 
 #colophon {
     float: left;
     padding-top: 23px;
     padding-left: 25px;
-}
-
-#contact {
-
-    float: right;
-    padding-left: 200px;
-    padding-right: 30px;
-    border-left: 2px solid #df6c6e; 
 }
 
 .clear {
@@ -189,11 +197,13 @@ body {
 
 div {
     font-family: Prociono;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 #main {
     background: #FFF9C4;
+    padding: 0px;
+    width: 920px;
 }
 
 .entry-title{
@@ -259,4 +269,102 @@ a:hover{
 
 .footer-link {
     color: white;
+}
+
+#address-container{
+    width: 33%;
+    float: left;
+}
+
+#phone-container{
+    width: 33%;
+    float: left;
+}
+
+#email-container{
+    width: 33%;
+    float: left;
+}
+
+#contact-content{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#projects-header{
+    width: 100%;
+    float: left;
+    font-size: 14px;
+}
+
+#skills-header {
+    width: 100%;
+    float: left;
+    font-size: 14px;
+}
+
+#projects-content{
+    width: 100%;
+    float: left;
+}
+
+#skills-content{
+    width: 100%;
+    float: left;
+}
+
+#qr-code{
+//    background: url(../images/resume/qrcode.png), white;
+//    background-size: 100%;
+    background: white;
+    width: 90px;
+    height: 90px;
+    margin-left: 10px;
+    float: right;
+    position: relative;
+}
+
+.qr-code{
+    width: 90px;
+    height: 90px;
+}
+
+#home-top{
+    width: 50px;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    border-right: 1px dotted #003EB2;
+}
+
+#contact-content{
+    padding-left: 15px;
+}
+
+#education-content{
+    padding-left: 15px;
+}
+
+#work-content{
+    padding-left: 15px;
+}
+
+#save{
+    width: 50px;
+    float: left;
+    padding-bottom: 15px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+#starting-project{
+    position: relative;
+    left: 10px;
+}
+
+.skills-column{
+    width: 25%;
+    float: left;
 }
